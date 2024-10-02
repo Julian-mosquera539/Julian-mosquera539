@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mods Julian - Mods y aplicaciones de juegos, herramientas y más">
+  <title>Mods Julian</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mods Julian</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Página Principal (Home) -->
+  <section id="home">
+    <h2>Bienvenido a Mods Julian</h2>
+    <p>Descubre los mejores mods y aplicaciones. Aquí encontrarás mods de juegos, aplicaciones móviles, herramientas, y mucho más.</p>
+  </section>
+
+  <!-- Categorías de Mods -->
+  <section id="categorias">
+    <h2>Categorías de Mods</h2>
+    <ul>
+      <li><a href="#">Mods de Juegos</a></li>
+      <li><a href="#">Aplicaciones Móviles</a></li>
+      <li><a href="#">Herramientas</a></li>
+      <li><a href="#">Utilidades Variadas</a></li>
+    </ul>
+  </section>
+
+  <!-- Blog o Noticias -->
+  <section id="blog">
+    <h2>Noticias y Actualizaciones</h2>
+    <article>
+      <h3>Lanzamiento de Nuevos Mods</h3>
+      <p>Estamos emocionados de anunciar el lanzamiento de nuevos mods para los juegos más populares. ¡Descúbrelos ahora!</p>
+    </article>
+    <article>
+      <h3>Tutorial: Cómo instalar mods</h3>
+      <p>Aprende cómo instalar mods en tus juegos favoritos con este sencillo tutorial.</p>
+    </article>
+  </section>
+
+  <!-- Formulario de Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="https://formsubmit.co/tu_correo@gmail.com" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Mods Julian - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
